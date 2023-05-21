@@ -1,15 +1,14 @@
 import constants from '@/constants'
-import axios from 'axios'
-
-axios.defaults.baseURL = 'http://localhost:8602'
+import axios from '@/utils/axios'
 
 export default {
   todo_set: ({ commit }, text) => {
     commit(constants.TODO_ADD, text)
   },
 
-  todo_get: ({ commit }) => {
-    axios.get('/todo/list').then(res => {
+  todo_get: ({ commit, state }, filter) => {
+    filter = filter || state.filter
+    axios.get(`/todo/list?completed=${filter}`).then(res => {
       commit(constants.TODO_GET, res.data.data)
     })
   },

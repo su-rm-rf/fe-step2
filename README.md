@@ -3,13 +3,16 @@
 开发一个在线文档任务管理工具
 ```
 
-> 纯手工从0到1编码，没有使用脚手架 <br/><br/>
-> [前端GitHub地址](https://github.com/su-rm-rf/fe-step2) <br/>
-> [后端GitHub地址](https://github.com/su-rm-rf/node_server)
+> 纯手工从0到1编码，没有使用脚手架 <br/>
+> 
+> [前端项目GitHub地址](https://github.com/su-rm-rf/fe-step2) <br/>
+> [后端项目GitHub地址](https://github.com/su-rm-rf/node_server_1)
 
 > 前端运行: npm run dev <br/>
-> 后端运行: npm run server <br/><br/>
-> 访问: http://localhost:8221/todo
+> 后端运行: npm run server <br/>
+> 
+> 访问:
+> http://localhost:8221/todo
 
 # 技术栈
 ```
